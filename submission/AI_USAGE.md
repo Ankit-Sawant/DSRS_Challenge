@@ -1,24 +1,13 @@
-# AI Usage
+# AI usage
 
-Declare what you used and how. We are not scoring the amount — we are checking that
-you can account for your own work.
+I used ChatGPT as a development assistant for this screening challenge. I remain responsible for the implementation and verified the generated suggestions against the challenge documentation and code.
 
-## Tools used
+AI assistance included:
 
-e.g. Claude, ChatGPT, Copilot, Cursor, local models
+- translating the chapter rubrics and output schema into an implementation checklist;
+- reviewing SEC/EDGAR endpoint conventions, caching/rate-limit edge cases, XML namespace handling, notice filings, and deterministic Parquet requirements;
+- drafting and reviewing parts of the Python pipeline, parser, EDA, tests, and the read-only SQL-backed agent architecture;
+- identifying security checks for model-generated SQL and source-attribution validation;
+- suggesting test cases and a demo flow.
 
-## Where you used them
-
-Roughly, by chapter. A sentence each is enough.
-
-| Chapter | How you used AI |
-|---|---|
-| 1 · Source | |
-| 2 · Interrogate | |
-| 3 · Structure | |
-| 4 · Serve | |
-
-## What you would change
-
-Anything AI produced that you kept but do not fully understand, or would rewrite given
-more time. Saying so here is better than discovering it in the walkthrough.
+I manually reviewed and adapted the generated code. Before submission I will run the repository's frozen `verify.py` and `check_submission.py`, inspect the EDA evidence, run the pipeline twice to confirm byte-identical output, and test the agent against the public example questions. I will update this paragraph so it states only checks I actually completed. I am responsible for understanding and being able to modify every component during the walkthrough.
