@@ -4,8 +4,8 @@ Fill this in and commit it. A submission missing the video link is incomplete.
 
 ## Who
 
-- **Name:**
-- **NetID:**
+- **Name:** Ankit Sawant
+- **NetID:** asawant4
 
 ## Video
 
@@ -21,10 +21,10 @@ Set visibility to **Unlisted**.
 
 Mark what you completed. Partial work still gets read.
 
-- [ ] 1 · Source
-- [ ] 2 · Interrogate
-- [ ] 3 · Structure
-- [ ] 4 · Serve
+- [x] 1 · Source
+- [x] 2 · Interrogate
+- [x] 3 · Structure
+- [x] 4 · Serve
 - [ ] 5 · Show
 - [ ] Bonus 1 — Notice attribution
 - [ ] Bonus 2 — CUSIP validation
@@ -35,13 +35,13 @@ Mark what you completed. Partial work still gets read.
 - [ ] Repo is **private** and `dsrsBOT` is a collaborator with Read access
 - [ ] Video uploaded to MediaSpace, visibility **Unlisted**, link tested
 - [ ] Repository URL submitted at <https://ikompete.dsrs.illinois.edu/competition/16>
-- [ ] `python verify.py` passes
-- [ ] Pipeline run twice; output is byte-identical
-- [ ] `output/filings.parquet`, `output/holdings.parquet` committed
-- [ ] `output/filers.csv`, `output/filings/`, `submission/eda.py` committed
-- [ ] `DEPENDENCIES.md`, `AI_USAGE.md`, and `ASSUMPTIONS.md` filled in
-- [ ] No API keys, tokens, or credentials committed
-- [ ] Frozen files unmodified
+- [x] `python verify.py` passes
+- [x] Pipeline run twice; output is byte-identical
+- [x] `output/filings.parquet`, `output/holdings.parquet` committed
+- [x] `output/filers.csv`, `output/filings/`, `submission/eda.py` committed
+- [x] `DEPENDENCIES.md`, `AI_USAGE.md`, and `ASSUMPTIONS.md` filled in
+- [x] No API keys, tokens, or credentials committed
+- [x] Frozen files unmodified
 
 ## Anything we should know
 

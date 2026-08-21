@@ -27,3 +27,8 @@
 
 - The core pipeline does **not** perform Bonus 1 notice-attribution recovery or Bonus 2 external CUSIP validation. I would only add these after the 30-point core passes `verify.py`, repeatability checks, and agent tests.
 - Free-text issuer matching in agent-generated SQL is necessarily approximate because issuer names in 13F filings are not standardized. CUSIP-based comparisons are preferred when the question identifies a security unambiguously.
+
+## Filer identity resolution
+
+- `The Baupost Group LLC` is normalized against the SEC lookup name `BAUPOST GROUP LLC/MA` by ignoring a leading `THE`, punctuation, and legal/entity suffix drift.
+- `Tudor Investment Corp` produced two exact normalized SEC lookup candidates, CIKs `923093` and `1080384`. I resolved the challenge filer to CIK `923093` because EDGAR identifies `TUDOR INVESTMENT CORP ET AL` under that CIK as the institutional investment manager filing the relevant Form 13F reports. The supplied roster CIK `854157` was therefore treated as untrusted and the resolved CIK is recorded as corrected.
