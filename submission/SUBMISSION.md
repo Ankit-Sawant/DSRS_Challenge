@@ -15,7 +15,7 @@ a question.
 Upload to Illinois MediaSpace: https://mediaspace.illinois.edu/upload/media
 Set visibility to **Unlisted**.
 
-- **Link:**
+- **Link:** https://mediaspace.illinois.edu/media/t/1_mg7oagbk
 
 ## Chapters attempted
 
@@ -25,7 +25,7 @@ Mark what you completed. Partial work still gets read.
 - [x] 2 · Interrogate
 - [x] 3 · Structure
 - [x] 4 · Serve
-- [ ] 5 · Show
+- [x] 5 · Show
 - [ ] Bonus 1 — Notice attribution
 - [ ] Bonus 2 — CUSIP validation
 
@@ -33,7 +33,7 @@ Mark what you completed. Partial work still gets read.
 
 - [ ] `python check_submission.py` passes
 - [ ] Repo is **private** and `dsrsBOT` is a collaborator with Read access
-- [ ] Video uploaded to MediaSpace, visibility **Unlisted**, link tested
+- [x] Video uploaded to MediaSpace, visibility **Unlisted**, link tested
 - [ ] Repository URL submitted at <https://ikompete.dsrs.illinois.edu/competition/16>
 - [x] `python verify.py` passes
 - [x] Pipeline run twice; output is byte-identical
@@ -53,4 +53,4 @@ Being candid here does not count against you.
 We may share your video publicly to show what candidates built. If you would rather we
 did not, write "do not share" here:
 
-- **Preference:**
+- **Preference:** do not share
