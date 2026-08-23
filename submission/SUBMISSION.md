@@ -31,10 +31,10 @@ Mark what you completed. Partial work still gets read.
 
 ## Checklist
 
-- [ ] `python check_submission.py` passes
-- [ ] Repo is **private** and `dsrsBOT` is a collaborator with Read access
+- [x] `python check_submission.py` passes
+- [x] Repo is **private** and `dsrsBOT` is a collaborator with Read access
 - [x] Video uploaded to MediaSpace, visibility **Unlisted**, link tested
-- [ ] Repository URL submitted at <https://ikompete.dsrs.illinois.edu/competition/16>
+- [x] Repository URL submitted at <https://ikompete.dsrs.illinois.edu/competition/16>
 - [x] `python verify.py` passes
 - [x] Pipeline run twice; output is byte-identical
 - [x] `output/filings.parquet`, `output/holdings.parquet` committed
